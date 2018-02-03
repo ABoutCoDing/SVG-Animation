@@ -12,4 +12,7 @@
            A 45 45, 0, 1, 1, 275 275
            L 275 230 Z" fill="blue"/>
 
+  <circle cx="80" cy="80" r="2" fill="red"/>
+  <circle cx="125" cy="125" r="2" fill="red"/>
+  <circle cx="125" cy="80" r="2" fill="red"/>
 </svg>
