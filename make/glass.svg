@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+<svg width="64" height="64" viewBox="0 0 64 64" 
+	xmlns="http://www.w3.org/2000/svg">
+	
 	<g>
-		<path fill="#fff" 
-			d="M16.778805,44 
-			c 0,0 9.518312,-3.481153 13.221195,-2 10,4 17.153596,2 17.153596,2 
-			L 45,54 20,54 z"/>
-		<path fill="none" stroke="#fff" stroke-width="5" 
-			d="m 19.5,54.5 25,0 10,-45 -45,0 z"/>
+		<path d="M 16 44 
+				 C 20 38, 27 38, 33 44 
+				 S 43 46, 47 44 
+				 L 45 54, 20 54 
+				 Z" 
+			stroke="#fff" fill="#fff"/>
+
+		<polygon 
+			points="10 10 55 10 44 54 19 54"
+			stroke="#fff" fill="transparent" stroke-width="5"/>
+
 	</g>
 </svg>
