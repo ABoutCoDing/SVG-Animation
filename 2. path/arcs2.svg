@@ -23,14 +23,16 @@
   <circle cx="125" cy="125" r="2" fill="violet" />
   <circle cx="125" cy="80" r="2" fill="blue" />
 
-
   <circle cx="230" cy="80" r="2" fill="blue" />
   <circle cx="275" cy="125" r="2" fill="purple" />
   <circle cx="275" cy="80" r="2" fill="green" />
 
-
   <circle cx="80" cy="230" r="2" fill="blue" />
-  <circle cx="125" cy="275" r="2" fill="purple" />
+  <circle cx="125" cy="275" r="2" fill="violet" />
+  <circle cx="125" cy="230" r="2" fill="green" />
+
+  <circle cx="230" cy="230" r="2" fill="blue" />
+  <circle cx="275" cy="275" r="2" fill="purple" />
   <circle cx="275" cy="230" r="2" fill="green" />
 
 </svg>
