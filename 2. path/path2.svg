@@ -2,7 +2,7 @@
   
   <path d="M10 10 H 90 V 90 H 10 L 10 10"/>
 
-  <!-- Points -->
+  <!-- Test  -->
   <circle cx="10" cy="10" r="2" fill="red"/>
   <circle cx="90" cy="90" r="2" fill="red"/>
   <circle cx="90" cy="10" r="2" fill="red"/>

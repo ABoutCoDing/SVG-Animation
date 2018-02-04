@@ -2,7 +2,7 @@
 
   <path d="M10 10"/>
 
-  <!-- Points -->
+  <!-- Test -->
   <circle cx="10" cy="10" r="2" fill="red"/>
 
 </svg>
