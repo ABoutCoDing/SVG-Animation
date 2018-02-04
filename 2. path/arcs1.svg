@@ -1,4 +1,6 @@
 <svg width="320" height="320" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- A rx ry x-axis-rotation large-arc-flag sweep-flag x y -->
   <path d="M 10 315
            L 110 215
            A 30 50 0 0 1 162.55 162.45
