@@ -1,0 +1,8 @@
+<svg width="20cm" height="20cm"
+    version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <image xlink:href="cat.jpg" 
+        x="0" y="0" height="20cm" width="20cm"/>
+</svg>

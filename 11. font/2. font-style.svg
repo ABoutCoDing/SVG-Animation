@@ -1,0 +1,18 @@
+<svg width="200" height="100"
+     viewBox="0 0 200 100" version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" >
+
+    <font id="Super_Sans">
+    <!-- and so on -->
+    </font>
+
+    <style type="text/css">
+        @font-face {
+            font-family: "Super Sans";
+            src: url(#Super_Sans);
+        }
+    </style>
+
+    <text x="10" y="30" font-family="Super Sans">My text uses Super Sans</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg width="500" height="200"
+     viewBox="0 0 500 200" version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">  
+
+    <style>
+        #wing{fill:#81CCAA;}
+        #body{fill:#B8E4C2;}
+        #pupil{fill:#1F2600;}
+        #beak{fill:#F69C0D;}
+        .eye-ball{fill:#F6FDC4;}
+    </style>
+
+    <path id="theMotionPath" 
+        d="M358,68 C 40,-20 20,50 5,50"
+        fill="none"  />
+
+    <g id="bird">
+        <g id="body">
+           <path 
+                d="M 109,69
+                    c 0,4 25,40 50,44
+                    c 0,10 -75,50 -104,-5
+                    c -25,-70 30,-65 46,-47 
+                    z" />
+
+            <path
+                id="wing" 
+                d="M 107,74
+                    c 0,0 30,10 45,15
+                    c 5,3 -12,37 -46,39
+                    c -40,0 -40,-57 0,-54
+                    z">
+                <animate attributeType="XML" attributeName="x" from="20" to="1000"
+                    dur="3s" repeatCount="indefinite"/>
+            </path>
+
+        </g>
+
+        <g id="head">
+            <path id="beak" 
+                    d="M 50,68
+                    l 0,0 -11,5 
+                    l 0,0 10,11
+                    z " />
+            
+            <circle class="eye-ball" cx="72" cy="71" r="11" />
+           
+            <circle id="pupil" cx="72" cy="71" r="7" />
+
+            <circle class="eye-ball" cx="77" cy="73.5" r="5"/>
+        </g>
+
+        <animateMotion dur="3s" repeatCount="indefinite">
+            <mpath xlink:href="#theMotionPath "/>
+        </animateMotion>
+    </g>
+</svg>

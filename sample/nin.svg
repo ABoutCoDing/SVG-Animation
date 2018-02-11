@@ -44,5 +44,14 @@
             C334.5,402.3,318.7,388.1,299.1,388.1z"></path>
         <path class="A" d="M526,388.2c-19.5,0-35.3,14.2-35.3,31.8c0,17.5,15.8,31.8,35.3,31.8c19.5,0,35.4-14.3,35.4-31.7
             C561.4,402.4,545.5,388.1,526,388.2z"></path>
+
+        <animateTransform 
+            attributeType="xml"
+            attributeName="transform" type="rotate"
+            from="0" to="15"
+            begin="0" dur="4s" 
+            fill="freeze"
+            repeatCount="indefinite"
+        />
     </g>
 </svg>

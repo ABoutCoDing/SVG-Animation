@@ -1,0 +1,11 @@
+<svg width="200" height="150"
+     viewBox="0 0 200 150" version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+     
+    <path d="M 10 75 Q 50 10 100 75 T 190 75"
+         fill="none" stroke="black" stroke-linecap="round" stroke-dasharray="5, 10, 5" />
+
+    <path d="M 10 75 L 190 75"
+         fill="none" stroke="red" stroke-linecap="round" stroke-dasharray="5, 5" />
+</svg>

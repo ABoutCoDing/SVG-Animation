@@ -1,0 +1,21 @@
+<svg width="200" height="200"
+     viewBox="" version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <defs>
+        <style type="text/css">
+            <![CDATA[
+                #MyRect {
+                    stroke: black;
+                    fill: red;
+                }
+                #MyRect:hover {
+                    stroke: black;
+                    fill: blue;
+                }
+            ]]>
+        </style>
+    </defs>
+    <rect x="10" y="10" width="180" height="180" id="MyRect" />
+</svg>
