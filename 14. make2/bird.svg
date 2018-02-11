@@ -11,6 +11,10 @@
         .eye-ball{fill:#F6FDC4;}
     </style>
 
+    <path id="theMotionPath" 
+        d="M358,68 C 40,-20 20,50 5,50"
+        fill="none"  />
+
     <g id="bird">
         <g id="body">
            <path 
@@ -27,8 +31,6 @@
                     c 5,3 -12,37 -46,39
                     c -40,0 -40,-57 0,-54
                     z">
-                <animate attributeType="XML" attributeName="x" from="20" to="1000"
-                    dur="3s" repeatCount="indefinite"/>
             </path>
 
         </g>
@@ -46,7 +48,9 @@
 
             <circle class="eye-ball" cx="77" cy="73.5" r="5"/>
         </g>
-        
-    </g>
 
+        <animateMotion dur="3s" repeatCount="indefinite">
+            <mpath xlink:href="#theMotionPath "/>
+        </animateMotion>
+    </g>
 </svg>
